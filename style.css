@@ -1,0 +1,135 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.dm{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 20px;
+    height: 70px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 70px;
+    background-color:#0066f6;
+
+}
+.dm:hover{
+cursor: pointer;
+}
+
+
+
+.header{
+    font-size: 30px;
+    height: 100px;
+    width: 700px;
+    background-color: #0066f6;
+    text-align: center;  
+    margin-top: 10px;
+    /* Center the .header div */
+    margin: 0 auto; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.729);
+    /* Flexbox for perfect text centering */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+body{
+    background-color: #F8E7DC;
+}
+img{
+    height: 230px;
+    width: 230px;
+  
+    object-fit: contain;
+    border-radius: 50%;
+
+}
+
+
+
+.box{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+}
+.r {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #F8E7DC;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+ 
+     
+    /* Ensures border doesn’t increase size */ 
+    transition: all 0.2s ease-in-out; /* Smooth transition */
+}
+
+.r:hover {
+    border: 10px solid black;
+    height: 350px;
+    width: 350px;
+    transition: all 0.2s ease-in-out;
+    img{
+        opacity: 50%;
+    }
+    box-shadow: 20px 20px 20px rgba(0, 89, 255, 0.592);
+    cursor: pointer;
+}
+.sb{
+    font-size: 25px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 40px;
+    height: 600px;
+    width: 700px;
+    background-color: #0066f6;
+}
+.score{
+    margin-top: 0;
+  display: flex;
+ justify-content: center;  
+}
+.vs{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 150px;
+    
+}
+.num{
+    margin-left: 10px;
+    font-size: 70px;
+    font-family: monospace;
+}
+.sc{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.board{
+    font-size: 15px;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: rgb(251, 88, 0);
+}
+
